@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+    encoding: utf-8
+    servlet:
+      content-type: text/html
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/test
